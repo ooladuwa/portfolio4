@@ -1,0 +1,8 @@
+.navbar-container {
+  display: flex;
+  line-height: 3rem;
+}
+
+.links {
+  font-size: large;
+}
