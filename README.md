@@ -2,7 +2,7 @@
 
 Setup:
 - CRA and cleanup
-- create pages and css partners
+- create app pages and css partner pages
 - apply css reset
 
 In Index.js
@@ -13,8 +13,21 @@ In App.js
 - import {Route, Switch} from react-router-dom
 - create routing - be sure to wrap routes in a switch
 
-- create and build out Navbar.js component
-- build out basic skeleton of pages
+Create and build out Navbar.js component
+- use css to style navbar for all pages
+- insert navbar into all three pages
+
+
+Build out basic skeleton of pages
+- use rafce to create arrow functional components exported
+
+Home.js / home.css
+- set background image
+- add left image
+- add center image
+- add right image
+- use css to style page so that it looks acceptable
+
 
 
 

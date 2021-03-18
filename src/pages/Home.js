@@ -16,13 +16,13 @@ const Home = () => {
       </div>
 
       <div className="middle">
-        <div className="growth">
+        {/* <div className="growth">
           Witness
           <br />
           my
           <br />
           GROWTH...
-        </div>
+        </div> */}
          <img
           src="https://i.ibb.co/n0jnPH1/seedlings.png"
           alt="seedlings"

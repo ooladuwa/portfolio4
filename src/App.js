@@ -5,12 +5,14 @@ import About from "./pages/About"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 
+import "./App.css"
+
 
 function App() {
   return (
     <div className="app">
       <Switch>
-      <Route exact path="about">
+      <Route exact path="/about">
         <About />
       </Route>
       <Route path="/projects">

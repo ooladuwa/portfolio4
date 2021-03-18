@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /* border: 1px solid grey; */
+  /* border: 1px solid red; */
 }
 
 /* general styles */
@@ -57,9 +57,16 @@ a:hover {
 
 /* ---------------------------END OF RESET----------------------------- */
 
-.project-container{
+.project {
+  display: flex;
+  flex-direction: column;
   background-image: url("https://i.ibb.co/Gnn3H0Q/flower-from-concrete-1.jpg");
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   min-width: 100%;
-  min-height: 100%
+  min-height: 100%;
+  background-size: cover;
 }

@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 /* general styles */
@@ -90,17 +90,15 @@ a:hover {
   font-size: large;
   font-weight: 600;
 }
-.seedlings-img {
+/* .seedlings-img {
   position: absolute;
-  top: 20px;
-}
+  top: 20px; */
+/* } */
 
 .right {
 }
 
 .sunshine-img {
  position: absolute;
- top: -150px;
- right: px;
  
 }
