@@ -8,6 +8,7 @@ const Projects = () => {
       <Navbar />
       <div className="project-container">
         <ul>
+          <h1>projects</h1>
           {/* use MAP to return projects from the created project database */}
         </ul>
       </div>

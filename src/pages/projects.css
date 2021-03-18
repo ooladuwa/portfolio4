@@ -57,9 +57,9 @@ a:hover {
 
 /* ---------------------------END OF RESET----------------------------- */
 
-.project {
-  display: flex;
-  flex-direction: column;
+.projects {
+  /* display: flex;
+  flex-direction: column; */
   background-image: url("https://i.ibb.co/Gnn3H0Q/flower-from-concrete-1.jpg");
   position: absolute;
   top: 0;
