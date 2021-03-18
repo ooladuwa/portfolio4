@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "../components/Navbar";
 import "./home.css";
 
 const Home = () => {
   return (
     <section className="home">
+      <Navbar />
       <div className="left">
         <img
           src="https://i.ibb.co/BghNjVh/flowers-Border.png"
@@ -13,7 +15,7 @@ const Home = () => {
         />
       </div>
 
-      <div className="middle growth">
+      <div className="middle">
         <div className="growth">
           Witness
           <br />
@@ -21,7 +23,7 @@ const Home = () => {
           <br />
           GROWTH...
         </div>
-        <img
+         <img
           src="https://i.ibb.co/n0jnPH1/seedlings.png"
           alt="seedlings"
           className="seedling-img"

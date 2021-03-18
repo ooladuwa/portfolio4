@@ -2,10 +2,15 @@ header nav {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: rbga(119, 136, 153, 0.8);
+  background-color: rgb(129, 122, 122, 0.5);
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 10vh;
 }
 
+.link {
+  color: rgb(25, 248, 62);
+  font-size: large;
+  font-weight: 600;
+}

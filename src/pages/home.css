@@ -61,7 +61,46 @@ a:hover {
   display: flex;
   flex-direction: row;
   background-image: url("https://i.ibb.co/1vLLJwL/grass-background-1.jpg");
-  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  background-size: cover;
+}
+
+.left {
+  padding-top: 3%;
+  position: relative;
+}
+
+.flower-border-img {
+  padding-left: 2rem;
+}
+
+.middle {
+  padding-top: 10%;
+}
+
+.growth {
+  text-align: center;
+  color: rgb(25, 248, 62);
+  font-size: large;
+  font-weight: 600;
+}
+.seedlings-img {
+  position: absolute;
+  top: 20px;
+}
+
+.right {
+}
+
+.sunshine-img {
+ position: absolute;
+ top: -150px;
+ right: px;
+ 
 }
