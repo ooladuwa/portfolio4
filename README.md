@@ -12,4 +12,6 @@ In Index.js
 In App.js
 - import {Route, Switch} from react-router-dom
 - create routing - be sure to wrap routes in a switch
-- 
+
+- create and build out Navbar.js component
+- build out basic skeleton of pages
