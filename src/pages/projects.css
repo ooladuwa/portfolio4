@@ -56,3 +56,10 @@ a:hover {
 }
 
 /* ---------------------------END OF RESET----------------------------- */
+
+.project-container{
+  background-image: url("https://i.ibb.co/Gnn3H0Q/flower-from-concrete-1.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%
+}
