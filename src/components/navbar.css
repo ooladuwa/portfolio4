@@ -1,4 +1,8 @@
 .navbar-container {
   display: flex;
-  flex-direction: column;
+  line-height: 3rem;
+}
+
+.links {
+  font-size: large;
 }
