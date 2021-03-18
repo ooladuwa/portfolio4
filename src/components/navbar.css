@@ -1,8 +1,11 @@
-.navbar-container {
+header nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rbga(255, 255, 255, 0.8);
   display: flex;
-  line-height: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
 }
 
-.links {
-  font-size: large;
-}

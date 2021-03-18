@@ -3,14 +3,14 @@
   padding: 0;
   margin: 0;
   max-width: 100%;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 /* general styles */
 html {
   font-size: 62.5%;
-  background-color: #4aab00;
 }
+
 body {
   font-size: 1.8rem;
   line-height: 1.5;
@@ -57,3 +57,10 @@ a:hover {
 }
 
 /* ---------------------------END OF RESET----------------------------- */
+
+.home-container {
+  background: url("https://i.ibb.co/1vLLJwL/grass-background-1.jpg");
+  background-size: cover;
+  min-width: 100%;
+  min-height: 100%
+}
