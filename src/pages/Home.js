@@ -1,41 +1,38 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Socials from "../components/Socials";
 import "./home.css";
 
 const Home = () => {
   return (
     <section className="home">
       <Navbar />
-      <div className="left">
+      <div className="about-me">
+        <h1>Onaje Oladuwa </h1>
+            <h3>Full-Stack Developer</h3>
+        
         <img
-          src="https://i.ibb.co/BghNjVh/flowers-Border.png"
-          alt="flowers"
-          className="flower-border-img"
-          usemap="#image-map"
+          className="naj-photo"
+          src="https://i.ibb.co/25gMRY2/IMG-0057-jpeg-2.jpg"
+          alt="Man wearing scarf"
         />
-      </div>
-
-      <div className="middle">
-        {/* <div className="growth">
-          Witness
-          <br />
-          my
-          <br />
-          GROWTH...
-        </div> */}
-         <img
-          src="https://i.ibb.co/n0jnPH1/seedlings.png"
-          alt="seedlings"
-          className="seedling-img"
-        />
-      </div>
-
-      <div className="right">
-        <img
-          src="https://i.ibb.co/H20Bv0t/sunshine.png"
-          alt="sunshine"
-          className="sunshine-img"
-        />
+        <h3>"Naj"</h3>
+        <Socials />
+        {/* <p>
+          Full-stack software engineering student with a background in
+          education. Focused on providing meaningful, genuine contributions to
+          colleagues, stakeholders, and end-users. Experienced and visionary
+          educator with demonstrated history of working with diverse
+          populations, building community, and implementing restorative
+          practices/social-emotional learning. Served as a teacher, department
+          chair, grade-level chair, and coach.
+        </p> */}
+            <a
+              className="resume"
+              href="/Onaje_Oladuwa_Resume_14-01-2021-13-27-41.pdf"
+              download>
+          <button className="resume-button">Download Resume</button>  
+            </a>
       </div>
     </section>
   );

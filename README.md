@@ -24,6 +24,7 @@ Create and build out Navbar.js component
 Build out basic skeleton of pages
 
 - use rafce to create arrow functional components exported
+- build basic html structure using JSX
 
 Home.js / home.css
 
@@ -40,3 +41,7 @@ About.js / about.css
 - use css to style page
 
 Project.js / project.css
+
+- set background image
+- create projects card container component
+- create project card component

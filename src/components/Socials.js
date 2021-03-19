@@ -1,26 +1,33 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import "../pages/about.css";
-import { Link } from "react-router-dom";
+import { FaTwitter } from "react-icons/fa";
+import "../pages/home.css";
 
 const Socials = () => {
   return (
     <div className="socials-container">
       <button className="socials-button">
-        <a href="https://www.github.com/ooladuwa" target="_blank">
-          <FaGithubSquare className="social-icon" size={42} />
+        <a
+          href="https://github.com/ooladuwa?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+          >
+          <FaGithub className="social-icon" size={42} />
         </a>
       </button>
       <button className="socials-button">
-        <a href="https://www.linkedin.com/in/ooladuwa/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/ooladuwa/"
+          target="_blank"
+          rel="noreferrer"
+          >
           <FaLinkedin className="social-icon" size={42} />
         </a>
       </button>
       <button className="socials-button">
-        <a href="https://twitter.com/ooladuwa" target="_blank">
-          <FaTwitterSquare className="social-icon" size={42} />
+        <a href="https://twitter.com/ooladuwa" target="_blank" rel="noreferrer">
+          <FaTwitter className="social-icon" size={42} />
         </a>
       </button>
     </div>

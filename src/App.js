@@ -1,20 +1,13 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom"
 
-import About from "./pages/About"
 import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 
-import "./App.css"
-
-
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Switch>
-      <Route exact path="/about">
-        <About />
-      </Route>
       <Route path="/projects">
         <Projects />
       </Route>
@@ -23,8 +16,6 @@ function App() {
       </Route>
     </Switch>
     </div>
-    
   ) 
 }
-
 export default App;
